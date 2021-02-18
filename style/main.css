@@ -1,6 +1,13 @@
 
-
+h1{
+  font: avro;
+  font-size: 50px;
+  color: #ffffff;
+  
+}
 body {
+  display: block;
+  di
 	background: #FFFFFF;
 	font-family: Arvo;
 	font-size: 14px;
