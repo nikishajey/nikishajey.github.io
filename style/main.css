@@ -3,12 +3,11 @@ h1{
   font: avro;
   font-size: 50px;
   color: #ffffff;
-  
+
 }
 body {
-  display: block;
-  di
-	background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
 	font-family: Arvo;
 	font-size: 14px;
 	color: #3C3D3F;
