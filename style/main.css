@@ -30,7 +30,22 @@ body{
 }
 
 .box h5{
-  font-size: 50px;
+  font-size: 20px;
   letter-spacing: 3px;
   font-weight: 100;
+}
+
+.box p{
+  text-align: justify;
+}
+
+u1{
+  margin: 0;
+  padding: 0;
+}
+
+.box li{
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
 }
