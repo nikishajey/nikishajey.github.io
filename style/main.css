@@ -57,3 +57,10 @@ u1{
   background-repeat: no-repeat;
   background-size:75%;
 }
+
+.box li a{
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+}
