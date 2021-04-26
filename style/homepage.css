@@ -1,3 +1,7 @@
 .homepage{
   display: flex;
+
+  @media (max-width: 770px){
+    display: block;
+  }
 }
