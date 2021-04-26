@@ -4,7 +4,8 @@ header{
   padding: 30px 0px;
 }
 .logo{
-    background-image: url("../uploads/logo.svg");
+    background-image: url("../uploads/logo1.svg");
     background-repeat: no-repeat;
     padding-top: 300px;
+    padding-left: 300px;
   }
