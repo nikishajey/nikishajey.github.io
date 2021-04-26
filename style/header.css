@@ -1,11 +1,39 @@
-header{
+.homepage header{
   background: white;
   width: 150px;
   padding: 30px 0px;
 }
-.logo{
-    background-image: url("../uploads/logo1.svg");
+.homepage .logo {
+    background-image: url("../uploads/logoo.svg");
     background-repeat: no-repeat;
-    padding-top: 300px;
-    padding-left: 300px;
+    background-size: contain;
+    padding-top: 80px;
+    margin-top: 0px;
   }
+.homepage .hompage_navigation ul{
+  margin: 20px 0;
+  list-style: none;
+  padding: 0 20px 0 0;
+  text-align: right;
+}
+.homepage .hompage_navigation li{
+  margin-bottom: 10px;
+  font-size: 20px;
+  text-decoration: none;
+}
+.homepage .hompage_navigation a{
+  text-decoration: none;
+  color: #D2A5D8;
+}
+.homepage .hompage_navigation title{
+  font-family: Calisto MT;
+}
+
+.homepage .email{
+  display: block;
+  text-align: right;
+  padding-right: 20px;
+  font-size: 20px;
+  color: #D2A5D8;
+  font-family: Calisto MT;
+}

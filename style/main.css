@@ -2,6 +2,7 @@
 @import "tools/bourbon/bourbon";
 @import "./font.css";
 @import "./header.css";
+@import "./homepage.css";
 
 
 body{
