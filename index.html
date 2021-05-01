@@ -7,10 +7,10 @@
   <link href="style/main.css" rel="stylesheet" type="text/css"/>
   <link href="style/header.css" rel="stylesheet" type="text/css"/>
 </head>
-<div class= "homepage">
+<div class= "homepage" id="homepage">
 <header>
     <h1>
-      <div class= "logo"> </div>
+      <div class= "logo"></div>
       <div class= "header_pos">
       <div class= "hompage_navigation">
         <ul>
@@ -19,37 +19,25 @@
           <li> <a href="#contact" id="title">Contact</a> </li>
         </ul>
         </div>
-    </h1>
-  </div>
-  <div class= "mobile_toggle"></div>
+    </div>
+  </h1>
+    <a href="javascript:void(0);" class="mobile_toggle" onclick="myfunc()">
+      <i class="fa fa-bars"></i>
+    </a>
 </header>
   </div>
   <div style="height:1000px"></div>
 <body>
-  <div class="box">
-    <img src="uploads/pic.jpeg" class="profile_pic">
-    <h1>Nikisha Jeyakumar</h1>
-    <h5>Computer Science & Mathematics Student at UTSC</h5>
-    <p>Hey there! Thanks for visiting my page! My name is Nikisha and I am currently a student at
-      University of Toronto, pursuing a Bachelor's degree in Computer Science and Mathematics.</p>
-    <h2> Education </h2>
-    <h2>Projects </h2>
-    <h2> Volunteer Expereeeience</h2>
-    <u1>
-      <li><a href="http://www.linkedin.com/in/nikisha-jeyakumar"><img src="../media/linkedin.png" class="icon"></a></li>
-    </u1>
-    </div>
-
     <script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-</script>
+    function myfunc() {
+      var x = document.getElementById("homepage");
+      if (x.className === "homepage") {
+        x.className += " responsive";
+      } else {
+        x.className = "homepage";
+      }
+    }
+  </script>
 
 </body>
 </html>
