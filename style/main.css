@@ -9,7 +9,7 @@ body{
   display: flex;
   margin: 0;
   padding: 0;
-  background-image: url("../uploads/pic1.jpeg");
+  background-color: white;
   background-repeat: no-repeat;
   background-size: cover;
 }
