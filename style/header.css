@@ -53,6 +53,10 @@
     position: fixed;
     float: right;
     display: block;
+    height: 5px;
+    background: black;
+    right: 0;
+    top: 90px;
   }
 }
 
