@@ -38,20 +38,11 @@
   text-decoration: none;
   color: #D2A5D8;
 }
-.homepage .hompage_navigation a .current{
-  background-color: #D2A5D8
-  color: white;
-}
 .homepage .hompage_navigation title{
   font-family: Calisto MT;
 }
 .homepage .mobile_toggle{
   display: none;
-}
-
-.homepage li:hover {
-  background-color: white;
-  color: black;
 }
 
 @media screen and (max-width: 600px) {
@@ -60,28 +51,40 @@
   }
   .homepage .mobile_toggle {
     position: fixed;
-    float: right;
-    height: 50px;
-    width: 50px;
-    display: block;
-    background: white;
-    right: 0px;
-    top: 90px;
-  }
+     float: right;
+     height: 50px;
+     width: 50px;
+     display: flex;
+     align-items: center;
+     right: 0px;
+     top: 90px;
+     color: #D2A5D8;
+     font-size: 36px;
+}
+.homepage .mobile_toggle:hover {
+   transition: all 0.3s ease-in-out;
+   background-color: white;
+   color: white;
+ }
 }
 
 @media screen and (max-width: 600px) {
   .homepage.responsive {
     position: fixed;
+
   }
   .homepage.responsive .mobile_toggle {
     position: fixed;
-    float: right;
-    height: 50px;
-    width: 50px;
-    background: white;
-    right: 0px;
-    top: 90px;
+   float: right;
+   height: 50px;
+   width: 50px;
+   display: flex;
+   align-items: center;
+   right: 0px;
+   top: 90px;
+   color: #D2A5D8;
+   font-size: 36px;
+
   }
   .homepage.responsive ul {
     float: none;
