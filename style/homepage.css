@@ -2,6 +2,11 @@
   display: flex;
   min-height: 100px;
 }
-@media screen and (max-width: 770px){
+.homepage .home-sections{
+  flex: 1;
+  
+  padding-top: 90px;
+}
+@media screen and (max-width: 600px){
     display: block;
   }
