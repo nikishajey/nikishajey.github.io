@@ -8,35 +8,42 @@ body{
   background-position: center;
 }
 
-.box{
+.main{
   width: 450px;
-  background: rgba(0,0,0,0.4);
-  padding: 40px;
-  text-align: center;
-  margin: auto;
-  margin-top: 5%;
-  color: white;
+  text-align: left;
+  padding-left: 50px;
+  padding-top: 50px;
   font-family: 'Century Gothic', sans-serif;
 }
 
-.box-img{
+.main-img{
   border-radius: 50%;
-  width: 200px;
-  height: 200px;
+  width: 500px;
+  height: 500px;
+  text-align: left;
+  margin: 0px 15px 15px 0px;"
+
 }
 
-.box h1{
+.main h1{
   font-size: 40px;
   letter-spacing: 4px;
   font-weight: 100;
+  color: black;
+  text-align: left;
 }
 
-.box h5{
+.main h5{
   font-size: 15px;
   letter-spacing: 3px;
   font-weight: 100;
+  color: black;
 }
 
-.box p{
+.main p{
   text-align: justify;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 100;
+  color: black;
 }
